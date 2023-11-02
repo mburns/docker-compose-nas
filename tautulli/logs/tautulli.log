@@ -1,0 +1,594 @@
+2023-11-01 17:26:57 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 17:26:57 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 17:26:57 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 17:26:57 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 17:26:57 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 17:26:57 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 17:26:57 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 17:26:57 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 17:26:57 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Altering database. Updating database table notify_log.
+2023-11-01 17:26:57 - DEBUG   :: MainThread : User 'Local' does not exist. Adding user.
+2023-11-01 17:26:57 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Generating UUID...
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Generating API key...
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Generating JWT secret...
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:26:57 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2023-11-01 17:26:57 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 17:26:57 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 17:26:57 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:26:58 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:26:59 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 17:26:59 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 17:26:59 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 17:26:59 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 17:26:59 - INFO    :: MainThread : [01/Nov/2023:17:26:59] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 17:26:59 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 17:34:06 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 17:34:06 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 17:34:06 - INFO    :: MainThread : [01/Nov/2023:17:34:06] ENGINE Bus STOPPING
+2023-11-01 17:34:06 - INFO    :: MainThread : [01/Nov/2023:17:34:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 17:34:06 - INFO    :: MainThread : [01/Nov/2023:17:34:06] ENGINE Bus STOPPED
+2023-11-01 17:34:06 - INFO    :: MainThread : [01/Nov/2023:17:34:06] ENGINE Bus EXITING
+2023-11-01 17:34:06 - INFO    :: MainThread : [01/Nov/2023:17:34:06] ENGINE Bus EXITED
+2023-11-01 17:34:06 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:34:06 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:34:06 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:34:06 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 17:34:10 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 17:34:10 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 17:34:10 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 17:34:10 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 17:34:10 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 17:34:10 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 17:34:10 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 17:34:10 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 17:34:10 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 17:34:10 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 17:34:10 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 17:34:10 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 17:34:10 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 17:34:10 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 17:34:10 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:34:11 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:34:12 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 17:34:12 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 17:34:12 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 17:34:12 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 17:34:12 - INFO    :: MainThread : [01/Nov/2023:17:34:12] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 17:34:12 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 17:43:58 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 17:43:58 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 17:43:58 - INFO    :: MainThread : [01/Nov/2023:17:43:58] ENGINE Bus STOPPING
+2023-11-01 17:43:58 - INFO    :: MainThread : [01/Nov/2023:17:43:58] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 17:43:58 - INFO    :: MainThread : [01/Nov/2023:17:43:58] ENGINE Bus STOPPED
+2023-11-01 17:43:58 - INFO    :: MainThread : [01/Nov/2023:17:43:58] ENGINE Bus EXITING
+2023-11-01 17:43:58 - INFO    :: MainThread : [01/Nov/2023:17:43:58] ENGINE Bus EXITED
+2023-11-01 17:43:58 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:43:58 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:43:58 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:43:58 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 17:44:17 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 17:44:17 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 17:44:17 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 17:44:17 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 17:44:17 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 17:44:17 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 17:44:17 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 17:44:17 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 17:44:17 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 17:44:17 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 17:44:17 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 17:44:17 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 17:44:17 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 17:44:17 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 17:44:17 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:44:18 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:44:18 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 17:44:18 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 17:44:18 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 17:44:18 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 17:44:18 - INFO    :: MainThread : [01/Nov/2023:17:44:18] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 17:44:18 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 17:52:06 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 17:52:06 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 17:52:06 - INFO    :: MainThread : [01/Nov/2023:17:52:06] ENGINE Bus STOPPING
+2023-11-01 17:52:06 - INFO    :: MainThread : [01/Nov/2023:17:52:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 17:52:06 - INFO    :: MainThread : [01/Nov/2023:17:52:06] ENGINE Bus STOPPED
+2023-11-01 17:52:06 - INFO    :: MainThread : [01/Nov/2023:17:52:06] ENGINE Bus EXITING
+2023-11-01 17:52:06 - INFO    :: MainThread : [01/Nov/2023:17:52:06] ENGINE Bus EXITED
+2023-11-01 17:52:06 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 17:52:06 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:52:06 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 17:52:06 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 17:52:21 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 17:52:21 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 17:52:21 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 17:52:21 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 17:52:21 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 17:52:21 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 17:52:21 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 17:52:21 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 17:52:21 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 17:52:21 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 17:52:21 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 17:52:21 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 17:52:21 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 17:52:21 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 17:52:21 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:52:22 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 17:52:23 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 17:52:23 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 17:52:23 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 17:52:23 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 17:52:23 - INFO    :: MainThread : [01/Nov/2023:17:52:23] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 17:52:23 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:05:46 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:05:46 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:05:46 - INFO    :: MainThread : [01/Nov/2023:18:05:46] ENGINE Bus STOPPING
+2023-11-01 18:05:46 - INFO    :: MainThread : [01/Nov/2023:18:05:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:05:46 - INFO    :: MainThread : [01/Nov/2023:18:05:46] ENGINE Bus STOPPED
+2023-11-01 18:05:46 - INFO    :: MainThread : [01/Nov/2023:18:05:46] ENGINE Bus EXITING
+2023-11-01 18:05:46 - INFO    :: MainThread : [01/Nov/2023:18:05:46] ENGINE Bus EXITED
+2023-11-01 18:05:46 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:05:46 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:05:46 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:05:46 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:06:41 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:06:41 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:06:41 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:06:41 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:06:41 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:06:41 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:06:41 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:06:41 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:06:41 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:06:41 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:06:41 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:06:41 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:06:41 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:06:41 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:06:41 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:06:42 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:06:43 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:06:43 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:06:43 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:06:43 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:06:43 - INFO    :: MainThread : [01/Nov/2023:18:06:43] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:06:43 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:08:05 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:08:05 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:08:05 - INFO    :: MainThread : [01/Nov/2023:18:08:05] ENGINE Bus STOPPING
+2023-11-01 18:08:06 - INFO    :: MainThread : [01/Nov/2023:18:08:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:08:06 - INFO    :: MainThread : [01/Nov/2023:18:08:06] ENGINE Bus STOPPED
+2023-11-01 18:08:06 - INFO    :: MainThread : [01/Nov/2023:18:08:06] ENGINE Bus EXITING
+2023-11-01 18:08:06 - INFO    :: MainThread : [01/Nov/2023:18:08:06] ENGINE Bus EXITED
+2023-11-01 18:08:06 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:08:06 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:08:06 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:08:06 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:08:19 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:08:19 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:08:19 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:08:19 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:08:19 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:08:19 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:08:19 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:08:19 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:08:19 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:08:19 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:08:19 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:08:19 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:08:19 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:08:19 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:08:19 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:08:20 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:08:21 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:08:21 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:08:21 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:08:21 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:08:21 - INFO    :: MainThread : [01/Nov/2023:18:08:21] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:08:21 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:13:17 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:13:17 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:13:17 - INFO    :: MainThread : [01/Nov/2023:18:13:17] ENGINE Bus STOPPING
+2023-11-01 18:13:17 - INFO    :: MainThread : [01/Nov/2023:18:13:17] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:13:17 - INFO    :: MainThread : [01/Nov/2023:18:13:17] ENGINE Bus STOPPED
+2023-11-01 18:13:17 - INFO    :: MainThread : [01/Nov/2023:18:13:17] ENGINE Bus EXITING
+2023-11-01 18:13:17 - INFO    :: MainThread : [01/Nov/2023:18:13:17] ENGINE Bus EXITED
+2023-11-01 18:13:17 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:13:17 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:13:17 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:13:17 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:13:26 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:13:26 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:13:26 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:13:26 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:13:26 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:13:26 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:13:26 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:13:26 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:13:26 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:13:26 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:13:26 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:13:26 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:13:26 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:13:26 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:13:26 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:13:26 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:13:27 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:13:27 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:13:27 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:13:27 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:13:27 - INFO    :: MainThread : [01/Nov/2023:18:13:27] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:13:27 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:15:27 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:15:27 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:15:27 - INFO    :: MainThread : [01/Nov/2023:18:15:27] ENGINE Bus STOPPING
+2023-11-01 18:15:28 - INFO    :: MainThread : [01/Nov/2023:18:15:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:15:28 - INFO    :: MainThread : [01/Nov/2023:18:15:28] ENGINE Bus STOPPED
+2023-11-01 18:15:28 - INFO    :: MainThread : [01/Nov/2023:18:15:28] ENGINE Bus EXITING
+2023-11-01 18:15:28 - INFO    :: MainThread : [01/Nov/2023:18:15:28] ENGINE Bus EXITED
+2023-11-01 18:15:28 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:15:28 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:15:28 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:15:28 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:15:36 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:15:36 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:15:36 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:15:36 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:15:36 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:15:36 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:15:36 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:15:36 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:15:36 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:15:36 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:15:36 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:15:36 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:15:36 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:15:36 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:15:36 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:15:37 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:15:37 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:15:37 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:15:37 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:15:37 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:15:38 - INFO    :: MainThread : [01/Nov/2023:18:15:38] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:15:38 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:19:32 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:19:32 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:19:32 - INFO    :: MainThread : [01/Nov/2023:18:19:32] ENGINE Bus STOPPING
+2023-11-01 18:19:33 - INFO    :: MainThread : [01/Nov/2023:18:19:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:19:33 - INFO    :: MainThread : [01/Nov/2023:18:19:33] ENGINE Bus STOPPED
+2023-11-01 18:19:33 - INFO    :: MainThread : [01/Nov/2023:18:19:33] ENGINE Bus EXITING
+2023-11-01 18:19:33 - INFO    :: MainThread : [01/Nov/2023:18:19:33] ENGINE Bus EXITED
+2023-11-01 18:19:33 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:19:33 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:19:33 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:19:33 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:19:36 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:19:36 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:19:36 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:19:36 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:19:36 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:19:36 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:19:36 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:19:36 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:19:36 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:19:36 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:19:36 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:19:36 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:19:36 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:19:36 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:19:36 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:19:37 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:19:38 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:19:38 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:19:38 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:19:38 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:19:38 - INFO    :: MainThread : [01/Nov/2023:18:19:38] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:19:38 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:26:32 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:26:32 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:26:32 - INFO    :: MainThread : [01/Nov/2023:18:26:32] ENGINE Bus STOPPING
+2023-11-01 18:26:33 - INFO    :: MainThread : [01/Nov/2023:18:26:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:26:33 - INFO    :: MainThread : [01/Nov/2023:18:26:33] ENGINE Bus STOPPED
+2023-11-01 18:26:33 - INFO    :: MainThread : [01/Nov/2023:18:26:33] ENGINE Bus EXITING
+2023-11-01 18:26:33 - INFO    :: MainThread : [01/Nov/2023:18:26:33] ENGINE Bus EXITED
+2023-11-01 18:26:33 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:26:33 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:26:33 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:26:33 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:26:37 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:26:37 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:26:37 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:26:37 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:26:37 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:26:37 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:26:37 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:26:37 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:26:37 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:26:37 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:26:37 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:26:37 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:26:37 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:26:37 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:26:37 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:26:38 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:26:38 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:26:38 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:26:38 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:26:38 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:26:38 - INFO    :: MainThread : [01/Nov/2023:18:26:38] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:26:38 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:26:53 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:26:53 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:26:53 - INFO    :: MainThread : [01/Nov/2023:18:26:53] ENGINE Bus STOPPING
+2023-11-01 18:26:53 - INFO    :: MainThread : [01/Nov/2023:18:26:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:26:53 - INFO    :: MainThread : [01/Nov/2023:18:26:53] ENGINE Bus STOPPED
+2023-11-01 18:26:53 - INFO    :: MainThread : [01/Nov/2023:18:26:53] ENGINE Bus EXITING
+2023-11-01 18:26:53 - INFO    :: MainThread : [01/Nov/2023:18:26:53] ENGINE Bus EXITED
+2023-11-01 18:26:53 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:26:53 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:26:53 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:26:53 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:26:57 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:26:57 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:26:57 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:26:57 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:26:57 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:26:57 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:26:57 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:26:57 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:26:57 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:26:57 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:26:57 - INFO    :: MainThread : Retrieving latest version information from GitHub
+2023-11-01 18:26:57 - DEBUG   :: MainThread : Requesting URL via GET method: https://api.github.com/repos/Tautulli/Tautulli/commits/master
+2023-11-01 18:26:57 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:26:57 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:26:57 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:26:57 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:26:58 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:26:59 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:26:59 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:26:59 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:26:59 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:26:59 - INFO    :: MainThread : [01/Nov/2023:18:26:59] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:26:59 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:27:20 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:27:20 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:27:20 - INFO    :: MainThread : [01/Nov/2023:18:27:20] ENGINE Bus STOPPING
+2023-11-01 18:27:20 - INFO    :: MainThread : [01/Nov/2023:18:27:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:27:20 - INFO    :: MainThread : [01/Nov/2023:18:27:20] ENGINE Bus STOPPED
+2023-11-01 18:27:20 - INFO    :: MainThread : [01/Nov/2023:18:27:20] ENGINE Bus EXITING
+2023-11-01 18:27:20 - INFO    :: MainThread : [01/Nov/2023:18:27:20] ENGINE Bus EXITED
+2023-11-01 18:27:20 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:27:20 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:27:20 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:27:20 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:27:24 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:27:24 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:27:24 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:27:24 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:27:24 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:27:24 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:27:24 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:27:24 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:27:24 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:27:24 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:27:24 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:27:24 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:27:24 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:27:24 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:27:24 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:27:25 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:27:26 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:27:26 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:27:26 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:27:26 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:27:26 - INFO    :: MainThread : [01/Nov/2023:18:27:26] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:27:26 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:27:38 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:27:38 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:27:38 - INFO    :: MainThread : [01/Nov/2023:18:27:38] ENGINE Bus STOPPING
+2023-11-01 18:27:38 - INFO    :: MainThread : [01/Nov/2023:18:27:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:27:38 - INFO    :: MainThread : [01/Nov/2023:18:27:38] ENGINE Bus STOPPED
+2023-11-01 18:27:38 - INFO    :: MainThread : [01/Nov/2023:18:27:38] ENGINE Bus EXITING
+2023-11-01 18:27:38 - INFO    :: MainThread : [01/Nov/2023:18:27:38] ENGINE Bus EXITED
+2023-11-01 18:27:38 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:27:38 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:27:38 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:27:38 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:27:42 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:27:42 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:27:42 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:27:42 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:27:42 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:27:42 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:27:42 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:27:42 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:27:42 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:27:42 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:27:42 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:27:42 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:27:42 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:27:42 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:27:42 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:27:43 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:27:44 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:27:44 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:27:44 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:27:44 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:27:44 - INFO    :: MainThread : [01/Nov/2023:18:27:44] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:27:44 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:29:40 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:29:40 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:29:40 - INFO    :: MainThread : [01/Nov/2023:18:29:40] ENGINE Bus STOPPING
+2023-11-01 18:29:40 - INFO    :: MainThread : [01/Nov/2023:18:29:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:29:40 - INFO    :: MainThread : [01/Nov/2023:18:29:40] ENGINE Bus STOPPED
+2023-11-01 18:29:40 - INFO    :: MainThread : [01/Nov/2023:18:29:40] ENGINE Bus EXITING
+2023-11-01 18:29:40 - INFO    :: MainThread : [01/Nov/2023:18:29:40] ENGINE Bus EXITED
+2023-11-01 18:29:40 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:29:40 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:29:40 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:29:40 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:29:44 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:29:44 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:29:44 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:29:44 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:29:44 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:29:44 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:29:44 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:29:44 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:29:44 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:29:44 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:29:44 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:29:44 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:29:44 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:29:44 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:29:44 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:29:45 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:29:45 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:29:45 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:29:45 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:29:45 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:29:45 - INFO    :: MainThread : [01/Nov/2023:18:29:45] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:29:45 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:34:02 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:34:02 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:34:02 - INFO    :: MainThread : [01/Nov/2023:18:34:02] ENGINE Bus STOPPING
+2023-11-01 18:34:02 - INFO    :: MainThread : [01/Nov/2023:18:34:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:34:02 - INFO    :: MainThread : [01/Nov/2023:18:34:02] ENGINE Bus STOPPED
+2023-11-01 18:34:02 - INFO    :: MainThread : [01/Nov/2023:18:34:02] ENGINE Bus EXITING
+2023-11-01 18:34:02 - INFO    :: MainThread : [01/Nov/2023:18:34:02] ENGINE Bus EXITED
+2023-11-01 18:34:02 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:34:02 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:34:02 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:34:02 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:34:20 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:34:20 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:34:20 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:34:20 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:34:20 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:34:20 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:34:20 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:34:20 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:34:20 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:34:20 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:34:20 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:34:20 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:34:20 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:34:20 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:34:20 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:34:21 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:34:22 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:34:22 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:34:22 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:34:22 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:34:22 - INFO    :: MainThread : [01/Nov/2023:18:34:22] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:34:22 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:41:10 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:41:10 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:41:10 - INFO    :: MainThread : [01/Nov/2023:18:41:10] ENGINE Bus STOPPING
+2023-11-01 18:41:10 - INFO    :: MainThread : [01/Nov/2023:18:41:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:41:10 - INFO    :: MainThread : [01/Nov/2023:18:41:10] ENGINE Bus STOPPED
+2023-11-01 18:41:10 - INFO    :: MainThread : [01/Nov/2023:18:41:10] ENGINE Bus EXITING
+2023-11-01 18:41:10 - INFO    :: MainThread : [01/Nov/2023:18:41:10] ENGINE Bus EXITED
+2023-11-01 18:41:10 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:41:10 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:41:10 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:41:10 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:41:14 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:41:14 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:41:14 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:41:14 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:41:14 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:41:14 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:41:14 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:41:14 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:41:14 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:41:14 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:41:14 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:41:14 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:41:14 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:41:14 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:41:14 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:41:15 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:41:16 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:41:16 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:41:16 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:41:16 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:41:16 - INFO    :: MainThread : [01/Nov/2023:18:41:16] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:41:16 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:42:05 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:42:05 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:42:05 - INFO    :: MainThread : [01/Nov/2023:18:42:05] ENGINE Bus STOPPING
+2023-11-01 18:42:06 - INFO    :: MainThread : [01/Nov/2023:18:42:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:42:06 - INFO    :: MainThread : [01/Nov/2023:18:42:06] ENGINE Bus STOPPED
+2023-11-01 18:42:06 - INFO    :: MainThread : [01/Nov/2023:18:42:06] ENGINE Bus EXITING
+2023-11-01 18:42:06 - INFO    :: MainThread : [01/Nov/2023:18:42:06] ENGINE Bus EXITED
+2023-11-01 18:42:06 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:42:06 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:42:06 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:42:06 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:42:09 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:42:09 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:42:09 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:42:09 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:42:09 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:42:09 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:42:09 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:42:09 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:42:09 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:42:09 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:42:09 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:42:09 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:42:09 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:42:09 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:42:09 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:42:10 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:42:11 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:42:11 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:42:11 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:42:11 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:42:11 - INFO    :: MainThread : [01/Nov/2023:18:42:11] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:42:11 - INFO    :: MainThread : Tautulli is ready!
+2023-11-01 18:43:05 - INFO    :: MainThread : Signal 15 caught, saving and exiting...
+2023-11-01 18:43:05 - INFO    :: MainThread : Tautulli WebStart :: Stopping Tautulli web server...
+2023-11-01 18:43:05 - INFO    :: MainThread : [01/Nov/2023:18:43:05] ENGINE Bus STOPPING
+2023-11-01 18:43:06 - INFO    :: MainThread : [01/Nov/2023:18:43:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8181)) shut down
+2023-11-01 18:43:06 - INFO    :: MainThread : [01/Nov/2023:18:43:06] ENGINE Bus STOPPED
+2023-11-01 18:43:06 - INFO    :: MainThread : [01/Nov/2023:18:43:06] ENGINE Bus EXITING
+2023-11-01 18:43:06 - INFO    :: MainThread : [01/Nov/2023:18:43:06] ENGINE Bus EXITED
+2023-11-01 18:43:06 - INFO    :: MainThread : Tautulli Config :: Writing configuration to file
+2023-11-01 18:43:06 - INFO    :: Thread-2 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:43:06 - INFO    :: Thread-3 : Tautulli NotificationHandler :: Notification thread exiting...
+2023-11-01 18:43:06 - INFO    :: MainThread : Tautulli is shutting down...
+2023-11-01 18:43:10 - INFO    :: MainThread : Starting Tautulli v2.13.2
+2023-11-01 18:43:10 - INFO    :: MainThread : [Docker] Linux 6.2.0-35-generic (#35~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Oct  6 10:23:26 UTC 2 - Debian GNU/Linux 12 bookworm)
+2023-11-01 18:43:10 - INFO    :: MainThread : America/Los_Angeles (UTC-0700)
+2023-11-01 18:43:10 - INFO    :: MainThread : Python 3.9.18 (main, Oct 11 2023, 23:49:58) [GCC 12.2.0]
+2023-11-01 18:43:10 - INFO    :: MainThread : SQLite 3.40.1
+2023-11-01 18:43:10 - INFO    :: MainThread : Program Dir: /app
+2023-11-01 18:43:10 - INFO    :: MainThread : Config File: /config/config.ini
+2023-11-01 18:43:10 - INFO    :: MainThread : Database File: /config/tautulli.db
+2023-11-01 18:43:10 - INFO    :: MainThread : Checking if the database upgrades are required...
+2023-11-01 18:43:10 - INFO    :: MainThread : Checking if configuration upgrades are required...
+2023-11-01 18:43:10 - DEBUG   :: MainThread : Using cached GitHub version data
+2023-11-01 18:43:10 - DEBUG   :: MainThread : Latest version is c215afbf84baafb1a2020c2dc6e36944a6de1504
+2023-11-01 18:43:10 - INFO    :: MainThread : Tautulli is up to date
+2023-11-01 18:43:10 - INFO    :: MainThread : Tautulli NotificationHandler :: Starting background notification handler (2 threads).
+2023-11-01 18:43:10 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:43:11 - ERROR   :: MainThread : Tautulli PlexTV :: PlexTV called, but no token provided.
+2023-11-01 18:43:12 - INFO    :: MainThread : Tautulli WebStart :: Initializing Tautulli web server...
+2023-11-01 18:43:12 - WARNING :: MainThread : Tautulli WebStart :: Web server authentication is disabled!
+2023-11-01 18:43:12 - INFO    :: MainThread : Tautulli WebStart :: Thread Pool Size: 10.
+2023-11-01 18:43:12 - INFO    :: MainThread : Tautulli WebStart :: Starting Tautulli web server on http://0.0.0.0:8181/
+2023-11-01 18:43:12 - INFO    :: MainThread : [01/Nov/2023:18:43:12] ENGINE Serving on http://0.0.0.0:8181
+2023-11-01 18:43:12 - INFO    :: MainThread : Tautulli is ready!
