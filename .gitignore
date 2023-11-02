@@ -13,6 +13,16 @@ docker-compose.override.yml
 !/prowlarr/.gitkeep
 /lidarr
 !/lidarr/.gitkeep
+/readarr
+!/readarr/.gitkeep
+/plex
+!/plex/.gitkeep
+/ombi
+!/ombi/.gitkeep
+/overseerr
+!/overseerr/.gitkeep
+/kapowarr
+!/kapowarr/.gitkeep
 /qbittorrent
 !/qbittorrent/.gitkeep
 /pia
